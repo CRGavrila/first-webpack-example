@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --config=config/webpack.dev.js",
     "build": "webpack --config=config/webpack.dev.js",
-    "babel": "babel src/main.js"
+    "babel": "babel src/main.js",
+    "server:dev": "node src/server/main.js"
   },
   "keywords": [],
   "author": "crgavrila",
@@ -22,6 +23,7 @@
     "babel-plugin-async-to-promises": "^1.0.5",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "css-loader": "^2.1.0",
+    "express": "^4.16.4",
     "extract-loader": "^3.1.0",
     "file-loader": "^3.0.1",
     "html-loader": "^0.5.5",
